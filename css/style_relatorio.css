@@ -1,0 +1,419 @@
+header {
+    background-color: #ceb31b;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+#relatorios {
+    padding: 20px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+h1 {
+    color: #ceb31b;
+    margin-top: 0;
+    text-align: center;
+}
+
+footer {
+    background-color: #ceb31b;
+}
+
+.resumo-dashboard {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main {
+    padding: 20px;
+}
+
+.input-data {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.input-data input[type="date"] {
+    width: 100%;
+    padding: 10px 40px 10px 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    background-color: #fff;
+}
+
+.input-data .calendar-icon {
+    position: absolute;
+    right: 10px;
+    pointer-events: none;
+    font-size: 20px;
+    color: #666;
+}
+
+.container {
+    max-width: 700px;
+    margin: auto;
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input,
+select {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.filtro-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.filtro-container label {
+    font-weight: bold;
+}
+
+.filtro-container input[type="date"],
+.filtro-container select,
+.filtro-container button {
+    padding: 6px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.filtro-container button {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.filtro-container button:hover {
+    background-color: #0056b3;
+}
+
+#mensagemInicial,
+#mensagemSemDados {
+    transition: opacity 0.5s ease-in-out;
+}
+
+#botaoPDF {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #1e64cc;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 12px 18px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 9999;
+    transition: background-color 0.3s;
+}
+
+#botaoPDF:hover {
+    background-color: #ac911a;
+}
+
+.navbar {
+    background-color: #ceb31b;
+    border-bottom: 3px solid #fcbb07;
+
+}
+
+.nav-links li a:hover {
+    background-color: #ac9725;
+}
+
+.menu-e-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.titulo {
+    color: white;
+    font-size: 28px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.menu-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 25px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.menu-icon span {
+    height: 3px;
+    background: white;
+    border-radius: 2px;
+    transition: 0.3s;
+}
+
+.menu-icon.active span:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+}
+
+.menu-icon.active span:nth-child(2) {
+    opacity: 0;
+}
+
+.menu-icon.active span:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+}
+
+
+.graficos-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.graficos-grid canvas {
+    flex: 1 1 45%;
+    max-width: 45%;
+    min-width: 300px;
+}
+
+.botoes-navegacao-relatorios {
+    text-align: center;
+    margin: 30px 20px 20px 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.botoes-navegacao-relatorios button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.botao-diario {
+    background-color: #3e8e41;
+}
+
+.botao-semanal {
+    background-color: #0077b6;
+}
+
+.botao-mensal {
+    background-color: #b45f06;
+}
+
+.botoes-navegacao-relatorios button:hover {
+    opacity: 0.85;
+}
+
+.titulo-historico {
+    text-align: center;
+    font-size: 2.2rem;
+    color: #9c870b;
+    font-weight: bold;
+    margin-top: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#btnTopo {
+    display: none;
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    z-index: 999;
+    width: 60px;
+    height: 60px;
+    background-color: #9c870b;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    font-size: 28px;
+    cursor: pointer;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#btnTopo:hover {
+    background-color: #5f5413;
+    transform: scale(1.1);
+}
+
+#botaoPDF {
+    position: fixed;
+    width: 100px;
+    bottom: 25px;
+    left: 25px;
+    z-index: 998;
+    padding: 12px 18px;
+    background-color: #52b788;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+#botaoPDF:hover {
+    background-color: #40916c;
+}
+
+.modal-tabela {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: rgba(212, 212, 212, 0.678);
+}
+
+.modal-content {
+    background-color: #fff;
+    width: 80%;
+    max-width: 1200px;
+    max-height: 80vh;
+    overflow-y: auto;
+    border-radius: 8px;
+    padding: 20px;
+    position: relative;
+}
+
+.modal-content button {
+    position: sticky;
+    bottom: 0;
+    margin-top: 10px;
+    background-color: #a167c9;
+    color: #fff;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.modal-content button:hover {
+    background-color: #8e4ec1;
+}
+
+.fechar {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+table {
+    width: 1200px;
+    border-collapse: collapse;
+}
+
+table,
+th,
+td {
+    border: 1px solid #ccc;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+.botao-tabela {
+    background-color: #a167c9;
+}
+
+.botao-tabela:hover {
+    background-color: #d1a9f1;
+}
+
+@media (min-width: 768px) {
+    .menu-icon {
+        display: none;
+    }
+
+    .titulo {
+        margin: 0 auto;
+    }
+
+    .resumo-dashboard {
+        padding: 15px;
+        margin: 10px;
+        max-width: 100%;
+        border-radius: 10px;
+        box-shadow: none;
+    }
+
+}
+
+.botao-dashboard {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 1rem;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+    transition: background-color 0.3s ease;
+    margin: 5px;
+}
+
+.botao-csv {
+    background-color: rgb(249, 36, 203);
+}
+
+.botao-pdf {
+    background-color: rgb(36, 103, 249);
+}
+
+.botao-dashboard:hover {
+    opacity: 0.9;
+}

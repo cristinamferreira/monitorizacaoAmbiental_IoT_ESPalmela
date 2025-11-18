@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Charco Espalmela 🌿</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Poppins', Arial, sans-serif;
+      background: linear-gradient(135deg, #d8f3dc, #b7e4c7, #95d5b2);
+      color: #1a1a1a;
+      overflow-x: hidden;
+    }
+
+    header {
+      background: linear-gradient(90deg, #74c69d, #52b788);
+      color: white;
+      padding: 15px 10px;
+      /* diminuiu */
+      text-align: center;
+      box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    header h1 {
+      font-size: 2.2rem;
+      /* menor */
+      letter-spacing: 1.5px;
+      animation: float 3s ease-in-out infinite;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      /* um pouco menor */
+      margin-top: 10px;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 6px 10px;
+      border-radius: 10px;
+      transition: all 0.3s ease;
+      font-size: 0.95rem;
+    }
+
+    nav a:hover {
+      background-color: #d9ed92;
+      color: #1a1a1a;
+      transform: scale(1.1);
+    }
+
+    main {
+      padding: 35px 20px;
+      max-width: 900px;
+      margin: 0 auto;
+      animation: fadeIn 1.2s ease;
+    }
+
+    section {
+      margin-bottom: 45px;
+    }
+
+    section h2 {
+      color: #2d6a4f;
+      margin-bottom: 15px;
+      text-align: center;
+    }
+
+    section p {
+      line-height: 1.8;
+      margin-bottom: 20px;
+      font-size: 1.05rem;
+      text-align: justify;
+    }
+
+    section img {
+      display: block;
+      margin: 25px auto;
+      border-radius: 15px;
+      max-width: 80%;
+      /* reduzi um pouco */
+      height: auto;
+      box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+      transition: transform 0.5s ease;
+    }
+
+    section img:hover {
+      transform: scale(1.05) rotate(-1deg);
+    }
+
+    blockquote {
+      background-color: #d8f3dc;
+      border-left: 5px solid #52b788;
+      padding: 15px 25px;
+      font-style: italic;
+      border-radius: 10px;
+      margin: 30px 0;
+    }
+
+    footer {
+      background: linear-gradient(90deg, #52b788, #74c69d);
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+      /* menor também */
+      margin-top: 40px;
+      font-weight: 500;
+      font-size: 0.95rem;
+    }
+
+    @keyframes float {
+
+      0%,
+      100% {
+        transform: translateY(0);
+      }
+
+      50% {
+        transform: translateY(-6px);
+      }
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>🍃 Charco Espalmela 🌿</h1>
+    <nav>
+      <ul>
+        <li><a href="#Inicio">Início</a></li>
+        <li><a href="#Sobre">Sobre o Projeto</a></li>
+        <li><a href="#Objetivos">Objetivos</a></li>
+        <li><a href="#Curiosidades">Curiosidades</a></li>
+        <li> <a href="https://iotambiental.espalmela.net/pag_charco.php">Voltar</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="Inicio">
+      <p>
+        Bem-vindo ao <strong>"O Nosso Charco ESPalmela"</strong> — um espaço criado para o estudo, a curiosidade e a
+        descoberta da vida aquática das nossas rãs.
+        Aqui exploramos temas ligados à natureza, à sustentabilidade e ao equilíbrio entre o ser humano e o ambiente.
+      </p>
+
+      <p>
+        <strong>O Nosso Charco Espalmela</strong> foi desenvolvido como um projeto educativo, com o propósito de
+        inspirar o conhecimento, promover a observação e incentivar a aprendizagem de forma leve, criativa e
+        encantadora.
+      </p>
+
+      <img src="img1.jpeg" alt="Charco Espalmela - natureza e aprendizado" style="height: 400px;">
+    </section>
+
+    <section id="Sobre">
+      <h2>🌿 Sobre o Projeto</h2>
+      <p>
+        <strong>O Nosso Charco Espalmela</strong> é um espaço de estudo que combina design, educação e consciência
+        ambiental.
+        Seu nome vem da ideia de um "charco" — um pequeno lago natural onde a vida floresce silenciosamente —
+        representando o conhecimento que brota com paciência e curiosidade.
+      </p>
+
+      <blockquote>
+        “O saber é como a água do charco: quanto mais observamos, mais descobrimos a vida que há lá dentro.” 💧
+      </blockquote>
+    </section>
+
+    <section id="Objetivos">
+      <h2>📘 Objetivos</h2>
+      <p>✨ Promover o aprendizado interdisciplinar, unindo ciência, arte e tecnologia.</p>
+      <p>🌿 Incentivar a observação da natureza e o pensamento crítico.</p>
+      <p>🌎 Estimular a sustentabilidade e o respeito ao meio ambiente.</p>
+      <p>💡 Criar um ambiente de partilha e curiosidade constante.</p>
+    </section>
+
+    <section id="Curiosidades">
+      <h2>🧠 Curiosidade</h2>
+      <p>
+        Sabias que um charco saudável pode abrigar centenas de espécies diferentes, desde minúsculos microrganismos até
+        aves aquáticas?
+        Assim como um ecossistema, o conhecimento cresce quando há diversidade e equilíbrio! 🌾
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Charco Espalmela. Criado com 🌿 e curiosidade para fins educativos.</p>
+  </footer>
+
+</body>
+
+</html>

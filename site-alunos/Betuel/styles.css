@@ -1,0 +1,194 @@
+/* Estilos gerais */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        
+        body {
+            background-color: #ffffff;
+            color: #1a3c27;
+            line-height: 1.6;
+            padding: 0 20px;
+        }
+        
+        /* Cabeçalho e menu */
+        header {
+            background-color: #1a3c27;
+            padding: 20px 0;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        
+        .logo {
+            font-size: 28px;
+            font-weight: bold;
+            color: #ffffff;
+        }
+        
+        .menu {
+            display: flex;
+            list-style: none;
+            justify-content: center;
+            margin-top: 15px;
+        }
+        
+        .menu li {
+            margin: 0 15px;
+        }
+        
+        .menu a {
+            color: #a8d5ba;
+            text-decoration: none;
+            font-weight: 500;
+            padding: 8px 15px;
+            border-radius: 5px;
+        }
+        
+        .menu a:hover {
+            background-color: #4caf50;
+            color: #ffffff;
+        }
+        
+        /* Conteúdo principal */
+        .conteudo-principal {
+            padding: 20px 0;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        
+        .dashboard-header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        
+        .dashboard-header h1 {
+            font-size: 36px;
+            color: #1a3c27;
+            margin-bottom: 10px;
+        }
+        
+        .dashboard-header p {
+            color: #4caf50;
+            font-size: 18px;
+        }
+        
+        /* Dados ambientais */
+        .dados-ambientais {
+            text-align: center;
+            background-color: #f5f9f7;
+            border-radius: 10px;
+            padding: 25px;
+            margin-bottom: 40px;
+            border-left: 4px solid #4caf50;
+        }
+        .TituloDados {
+            text-align: center;
+            font-weight: bold;
+            font-size: 28px;
+            color: #1a3c27;
+            margin-bottom: 20px;
+        }
+        .dados-ambientais h2 {
+            color: #1a3c27;
+            margin-bottom: 20px;
+            font-size: 24px;
+        }
+        
+        .dados-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        
+        .dado-card {
+            background-color: #e8f5e9;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            border-top: 3px solid #1a3c27;
+        }
+        
+        .dado-card h3 {
+            color: #1a3c27;
+            margin-bottom: 10px;
+            font-size: 18px;
+        }
+        
+        .dado-card p {
+            color: #4caf50;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        
+        /* Seção de Alertas */
+        .alertas {
+            background-color: #f5f9f7;
+            border-radius: 10px;
+            padding: 25px;
+            margin-bottom: 30px;
+            border-left: 4px solid #4caf50;
+        }
+        
+        .alertas h2 {
+            color: #1a3c27;
+            margin-bottom: 20px;
+            font-size: 24px;
+        }
+        
+        .alertas-lista {
+            list-style: none;
+        }
+        
+        .alertas-lista li {
+            background-color: #e8f5e9;
+            padding: 12px 15px;
+            margin-bottom: 10px;
+            border-radius: 6px;
+            border-left: 3px solid #1a3c27;
+        }
+        
+        /* Atualização */
+        .atualizacao {
+            text-align: center;
+            color: #4caf50;
+            font-style: italic;
+            margin: 30px 0;
+        }
+        
+        /* Rodapé */
+        footer {
+            background-color: #1a3c27;
+            padding: 30px 0;
+            margin-top: 50px;
+            text-align: center;
+        }
+        
+        .footer-logo {
+            font-size: 20px;
+            font-weight: bold;
+            color: #ffffff;
+            margin-bottom: 15px;
+        }
+        
+        .footer-links {
+            display: flex;
+            list-style: none;
+            justify-content: center;
+            margin-bottom: 15px;
+        }
+        
+        .footer-links li {
+            margin: 0 15px;
+        }
+        
+        .footer-links a {
+            color: #a8d5ba;
+            text-decoration: none;
+        }
+        
+        .copyright {
+            color: #a8d5ba;
+            font-size: 14px;
+        }

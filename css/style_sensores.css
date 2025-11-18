@@ -1,0 +1,334 @@
+.menu-e-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+header {
+    background: #3e8e41;
+    color: #fff;
+    text-align: center;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+    margin-top: 0;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+    margin: 10px auto;
+    background-color: #ffffff;
+    border-radius: 8px;
+    max-width: 1000px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.material,
+#montagem div {
+    margin-bottom: 30px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.material img,
+#montagem img {
+    width: 100%;
+    max-width: 300px;
+    display: block;
+    margin: 10px auto;
+    border-radius: 12px;
+    height: auto;
+}
+
+.material p,
+#montagem p {
+    text-align: justify;
+    text-align-last: center;
+    font-weight: bold;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 40px;
+    text-align: justify;
+    max-width: 800px;
+    margin: 0 auto;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #3e8e41;
+}
+
+
+.navbar {
+    background-color: #3e8e41;
+    border-bottom: 3px solid #aef1c5;
+
+}
+
+.nav-links li a:hover {
+    background-color: #4c6d4f;
+}
+
+.sensor-card {
+    display: flex;
+    align-items: center;
+    background-color: #f4f8fb;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    gap: 20px;
+}
+
+.sensor-card img {
+    width: 150px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 8px;
+    background: white;
+    padding: 10px;
+}
+
+.sensor-info h2 {
+    margin-top: 0;
+    color: #2b3e50;
+    font-size: 20px;
+}
+
+.sensor-info ul {
+    list-style-type: none;
+    list-style-type: none;
+    padding: 0;
+    font-size: 15px;
+    color: #555;
+}
+
+.sensor-info li {
+    margin-bottom: 8px;
+    color: #555;
+}
+
+.titulo-sensor {
+    font-size: 1.8em;
+    font-weight: bold;
+    line-height: 70px;
+}
+
+.card-covs,
+.card-luz,
+.card-particulas,
+.card-sismos {
+    background-color: #8adba2bb;
+    border-left: 6px solid #02bd50;
+    padding: 20px;
+    border-radius: 12px;
+    margin: 20px auto;
+    max-width: 700px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 2px 8px rgba(9, 173, 78, 0.1);
+}
+
+.card-covs h3,
+.card-particulas h3,
+.card-sismos h3,
+.card-luz {
+    margin-top: 0;
+    color: #019b3c;
+    font-size: 1.6em;
+}
+
+.card-covs ul,
+.card-particulas ul,
+.card-sismos ul,
+.card-luz {
+    padding-left: 20px;
+    list-style-type: disc;
+}
+
+.card-covs p,
+.card-luz,
+.card-particulas p,
+.card-sismos p,
+.card-covs li,
+.card-particulas li,
+.card-sismos li {
+    font-size: 1.1em;
+    line-height: 1.5;
+}
+
+.card-gateway {
+    background-color: #8adba2bb;
+    border-left: 6px solid #0da114;
+    padding: 20px;
+    border-radius: 12px;
+    max-width: 700px;
+    margin: 20px auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0 3px 10px rgba(25, 210, 96, 0.2);
+}
+
+.card-gateway h3 {
+    margin-top: 0;
+    color: #4a724c;
+    font-size: 1.6em;
+}
+
+.card-gateway ul {
+    padding-left: 20px;
+    list-style-type: square;
+}
+
+.card-gateway p,
+.card-gateway li {
+    font-size: 1.1em;
+    line-height: 1.5;
+    color: #385e3a;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    justify-content: space-between;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+}
+
+.card {
+    flex: 1 1 22%;
+    box-sizing: border-box;
+    background: #f5f9ff;
+    border: 1.8px solid #29b33098;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(17, 148, 12, 0.404);
+    padding: 20px 25px;
+    width: 320px;
+    color: #141414c0;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 30px rgba(25, 118, 210, 0.3);
+}
+
+.card h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 1.4em;
+    color: #18dd71cb;
+}
+
+.card ul {
+    padding-left: 20px;
+    margin: 0;
+}
+
+.card ul li {
+    margin-bottom: 8px;
+    line-height: 1.4;
+    font-size: 1em;
+}
+
+.sensor-card {
+    display: flex;
+    align-items: flex-start;
+    margin: 40px auto;
+    max-width: 900px;
+    gap: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sensor-card img {
+    max-width: 250px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(25, 118, 210, 0.15);
+}
+
+.sensor-info {
+    flex: 1;
+}
+
+.sensor-info h2 {
+    margin-top: 0;
+    color: #1cdf74c0;
+}
+
+.sensor-info ul {
+    padding-left: 20px;
+    list-style-type: disc;
+}
+
+.sensor-info ul li {
+    margin-bottom: 6px;
+    font-size: 1em;
+}
+
+@media (max-width: 768px) {
+    .cards-container {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .card {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .sensor-card {
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;
+    }
+
+    .sensor-card img {
+        width: 90%;
+        max-width: 300px;
+        margin-bottom: 15px;
+    }
+
+    .sensor-info h2 {
+        font-size: 1.3em;
+        text-align: center;
+    }
+
+    .sensor-info ul {
+        padding-left: 20px;
+        font-size: 0.95em;
+    }
+
+    .material img,
+    #montagem img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .material p,
+    #montagem p,
+    ul {
+        font-size: 1em;
+        padding: 0 10px;
+    }
+
+    .titulo-sensor {
+        font-size: 1.3em;
+        line-height: 1.5;
+        text-align: center;
+    }
+
+    #map {
+        width: 100%;
+        height: 260px;
+    }
+}
