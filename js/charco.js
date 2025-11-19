@@ -268,7 +268,7 @@
 
     if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", tick);
     else tick();
-    setInterval(tick, 5000);
+    setInterval(tick, 10000);
 })();
 
 (function () {
